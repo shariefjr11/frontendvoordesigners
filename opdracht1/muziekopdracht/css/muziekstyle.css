@@ -1,0 +1,36 @@
+main {
+    background-color: darkblue;
+    width: 40em;
+    margin: 0 auto;
+    border-radius: 0.5em;
+}
+
+h1 {
+    text-align: center;
+    color: azure;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#nummers {
+    list-style-type: none;
+}
+
+img {
+    border-radius: 5em;
+    margin-bottom: 1.2em;
+    width: 35em;
+}
+
+.muziek {
+    width: 35em;
+    cursor: move;
+}
+
+/*wanneer je een muzieknummer dragt dan komt er een lijn waar het nummer zich gaat bevinden*/
+
+.muziek:hover {
+    opacity: 0.7;
+    cursor: move;
+}
